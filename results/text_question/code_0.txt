@@ -1,0 +1,47 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define the coordinates of the points
+A = np.array([0, 1])
+B = np.array([-0.866, -0.5])
+C = np.array([0.866, -0.5])
+D = np.array([0, -0.5])
+
+# Create a figure and axis
+fig, ax = plt.subplots(figsize=(3, 3))
+
+# Draw the triangle and lines
+triangle = plt.Polygon([A, B, C], closed=True, fill=None, edgecolor='black')
+ax.add_patch(triangle)
+plt.plot([A[0], D[0]], [A[1], D[1]], color='black')
+plt.plot([D[0], C[0]], [D[1], C[1]], color='black')
+plt.plot([A[0], B[0]], [A[1], B[1]], color='black')
+plt.plot([B[0], D[0]], [B[1], D[1]], color='black')
+plt.plot([C[0], D[0]], [C[1], D[1]], color='black')
+
+# Draw the small square at D
+plt.plot([D[0], D[0] + 0.2], [D[1], D[1]], color='black')
+plt.plot([D[0] + 0.2, D[0] + 0.2], [D[1], D[1] + 0.1], color='black')
+plt.plot([D[0] + 0.2, D[0]], [D[1] + 0.1, D[1] + 0.1], color='black')
+plt.plot([D[0], D[0]], [D[1], D[1] + 0.1], color='black')
+
+# Add labels with LaTeX formatting
+ax.text(A[0], A[1] + 0.1, r'$\mathcal{A}$', fontsize=20, ha='center')
+ax.text(B[0] - 0.1, B[1], r'$\mathcal{B}$', fontsize=20, va='center', ha='right')
+ax.text(C[0] + 0.1, C[1], r'$\mathcal{C}$', fontsize=20, va='center', ha='left')
+ax.text(D[0], D[1] - 0.1, r'$\mathcal{D}$', fontsize=20, va='top', ha='center')
+
+# Set limits and aspect
+ax.set_xlim(-1, 1)
+ax.set_ylim(-1, 1.5)
+ax.set_aspect('equal')
+ax.axis('off')  # Turn off the axis
+
+# Add random points in the background
+for _ in range(100):
+    x = np.random.uniform(-1, 1)
+    y = np.random.uniform(-1, 1)
+    ax.plot(x, y, 'o', color='gray', markersize=1, alpha=0.1)
+
+# Show the plot
+plt.show()

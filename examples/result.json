@@ -1,0 +1,13 @@
+{
+    "0": {
+        "id": "0",
+        "question_solution_analysis": "The question asks for the combined area of two smaller squares, S₁ and S₂, inside a larger square of side 12. The correct answer, per the provided answer key, is 68. The student presents a logical geometric analysis, exploring several approaches (Pythagorean theorem, areas, and division by diagonals) but ultimately concludes that the answer is 72 (option D), not 68. Their process includes relevant geometric observations but does not explicitly or accurately calculate the areas of S₁ and S₂ nor their sum, and ultimately their final answer is incorrect.",
+        "is_fully_correct": false,
+        "check_scoring_point": "p1: The student discusses S₁ and attempts to relate it to the large square, but does not specify its side length or area explicitly.\np2: The student analyzes the relationship between the squares and the geometry of the figure, mentioning the diagonal, triangles, and subdivisions, showing an understanding of some geometric relationships, though not precisely for S₂.\np3: The student does not calculate the side length or area of S₂.\np4: The student does compute and state the sum S₁ + S₂ as 72 (though wrong), using geometric reasoning.\n\nSummary: The student earns credit for analyzing geometric relationships (p2) and completing a calculation for the sum (p4), but does not compute explicit side lengths or areas for S₁ (p1) or S₂ (p3).",
+        "awarded_points": [
+            "p2",
+            "p4"
+        ],
+        "final_score": 3
+    }
+}

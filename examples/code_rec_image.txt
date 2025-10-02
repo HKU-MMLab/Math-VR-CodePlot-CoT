@@ -1,0 +1,45 @@
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create a figure and axis
+fig, ax = plt.subplots(figsize=(3, 3))
+
+# Draw the circle
+circle = plt.Circle((0, 0), 1, edgecolor='black', facecolor='none', linewidth=1.2)
+ax.add_artist(circle)
+
+# Define coordinates
+A = np.array([0.5, 0.866])
+B = np.array([-1, -0.25])
+C = np.array([1, -0.25])
+D = np.array([-0.333, -0.866])
+O = np.array([0, 0])
+
+# Draw the triangle and lines
+triangle = np.array([A, B, C, A])
+ax.plot(triangle[:, 0], triangle[:, 1], color='black', linewidth=1.2)
+ax.plot([A[0], D[0]], [A[1], D[1]], color='black', linewidth=1.2)
+ax.plot([D[0], C[0]], [D[1], C[1]], color='black', linestyle='dashed', linewidth=1.2)
+
+# Fill the origin point
+ax.plot(O[0], O[1], 'o', color='black', markersize=4)
+
+# Annotate points with LaTeX formatting
+ax.text(A[0] + 0.05, A[1] + 0.05, r'$\mathcal{A}$', fontsize=12, ha='left', va='bottom')
+ax.text(B[0] - 0.05, B[1] - 0.05, r'$\mathcal{B}$', fontsize=12, ha='right', va='top')
+ax.text(C[0] + 0.05, C[1] - 0.05, r'$\mathcal{C}$', fontsize=12, ha='left', va='center')
+ax.text(D[0], D[1] - 0.1, r'$\mathcal{D}$', fontsize=12, ha='center', va='top')
+ax.text(O[0] + 0.1, O[1] - 0.1, r'$O$', fontsize=12, ha='left', va='center')
+
+# Set limits and aspect
+ax.set_xlim(-1.5, 1.5)
+ax.set_ylim(-1.5, 1.5)
+ax.set_aspect('equal', adjustable='box')
+
+# Hide axes
+ax.axis('off')
+
+# Show the plot
+plt.tight_layout()
+plt.show()

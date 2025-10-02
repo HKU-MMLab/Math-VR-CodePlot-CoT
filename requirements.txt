@@ -1,0 +1,10 @@
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.50.0
+deepspeed==0.16.4
+accelerate==1.4.0
+torchcodec==0.2
+qwen-vl-utils[decord]==0.0.8
+matplotlib==3.10.6
+datasets==4.1.1
+openai==2.0.0
