@@ -20,7 +20,7 @@
   <a href="https://arxiv.org/abs/2505.17022" target="_blank"><b>Paper</b></a> •
   <a href="#introduction">Introduction</a> •
   <a href="#math-vr">Math-VR</a> •
-  <a href="#model-overview">Model Overview</a> •
+  <a href="#model-overview">Model</a> •
   <a href="#usage">Usage</a> •
   <a href="#math-vr-benchmark-evaluation">Evaluation</a> •
   <a href="#benchmark">Benchmark results</a> •
