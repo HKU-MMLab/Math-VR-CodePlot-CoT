@@ -17,7 +17,7 @@
 </div>
 <hr>
 <div align="center" style="line-height: 1.2;">
-  <a href="https://arxiv.org/abs/2505.17022" target="_blank"><b>Paper</b></a> •
+  <a href="" target="_blank"><b>Paper</b></a> •
   <a href="#introduction">Introduction</a> •
   <a href="#math-vr">Math-VR</a> •
   <a href="#model-overview">Model</a> •
