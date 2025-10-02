@@ -21,6 +21,8 @@
   <a href="#introduction">Introduction</a> •
   <a href="#math-vr">Math-VR</a> •
   <a href="#model-overview">Model Overview</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#math-vr-benchmark-evaluation">Evaluation</a> •
   <a href="#benchmark">Benchmark results</a> •
   <a href="#license">License</a> •
   <a href="#citation">Citation</a>
