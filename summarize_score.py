@@ -19,7 +19,7 @@ def summerize(result_dict, dataset):
         try:
             total_num += 1
             max_score = dataset[int(key)]['total_score']
-            score = 1.0 if result_dict[key]['final_score'] == max_score else result_dict[key]['final_score'] / max_score * wrong_discount
+            score = 1.0 if result_dict[key]['is_fully_correct'] else result_dict[key]['final_score'] / max_score * wrong_discount
             total_ps += score
             total_ac += (result_dict[key]['is_fully_correct'] is True)
         except Exception as e:
