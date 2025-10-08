@@ -1,6 +1,6 @@
 # Math-VR Benchmark & CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-Driven Images
 <div align="center">
-<a href="https://math-vr.github.io "><img src="https://img.shields.io/badge/Project-Homepage-green" alt="Home"></a>
+<a href="https://math-vr.github.io"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="Home"></a>
 <a href=""><img src="https://img.shields.io/badge/ArXiv-red"></a>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HKU-MMLab/Math-VR-CodePlot-CoT" alt="visitors">
   
