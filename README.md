@@ -152,34 +152,34 @@ We benchmark a suite of SOTA VLMs (Vision Language Models), UMs (Unified Models)
 <details open>
 <summary> Math-VR benchmark (English) on VLMs and UMs </summary>
 
-| # | Model | Link | #Params | Type | Thinking | Text (PS) | Text (AC) | Multimodal (PS) | Multimodal (AC) | Overall (PS) | Overall (AC) |
-|---|---|:---:|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Gemini-2.5-Pro 🥇 |[Link](https://deepmind.google/models/gemini/pro/) | - | VLM | ✓ | 77.9 | 58.7 | 82.8 | 68.7 | **80.8** | **64.7** |
-| 2 | Gemini-2.5-Flash 🥈 |[Link](https://deepmind.google/models/gemini/flash/) | - | VLM | ✓ | 77.5 | 57.0 | 79.0 | 62.9 | **78.4** | **60.5** |
-| 3 | GPT-o3 🥉 |[Link](https://openai.com/index/introducing-o3-and-o4-mini/)| - | VLM | ✓ | 72.9 | 52.9 | 78.6 | 63.7 | **76.4** | **59.3** |
-| 4 | Seed-1.6-Thinking |[Link](https://seed.bytedance.com/en/seed1_6)| - | VLM | ✓ | 73.0 | 53.0 | 76.6 | 62.0 | **75.2** | **58.4** |
-| 5 | Nano Banana |[Link](https://aistudio.google.com/models/gemini-2-5-flash-image)| - | UM | X | 72.3 | 49.1 | 74.7 | 56.3 | **73.8** | **53.4** |
-| 6 | Gemini-2.5-Flash-No-Thinking |[Link](https://deepmind.google/models/gemini/flash/)| - | VLM | X | 70.9 | 44.6 | 75.5 | 57.5 | **73.7** | **52.3** |
-| 7 | GLM-4.5V |[Link](https://github.com/zai-org/GLM-V)| 108B | VLM | ✓ | 70.5 | 48.0 | 69.1 | 50.6 | **69.7** | **49.6** |
-| 8 | Mimo-VL-7B |[Link](https://github.com/XiaomiMiMo/MiMo-VL)| 7B | VLM | X | 68.4 | 43.5 | 69.0 | 51.3 | **68.8** | **48.3** |
-| 9 | InternVL-3.5-8B |[Link](https://huggingface.co/OpenGVLab/InternVL3_5-8B)| 8B | VLM | ✓ | 64.0 | 38.5 | 62.0 | 42.2 | **62.8** | **40.8** |
-| 10 | GPT-4.1-mini |[Link](https://platform.openai.com/docs/models/gpt-4.1-mini)| - | VLM | X | 62.0 | 33.3 | 58.6 | 33.3 | **60.0** | **33.3** |
-| 11 | GLM-4.1V-9B |[Link](https://github.com/zai-org/GLM-V)| 9B | VLM | ✓ | 54.4 | 27.8 | 52.7 | 29.9 | **53.4** | **29.0** |
-| 12 | Claude-Sonnet-4 |[Link](https://www.anthropic.com/news/claude-4)| - | VLM | X | 60.9 | 31.5 | 53.4 | 25.8 | **56.4** | **28.1** |
-| 13 | GPT-4.1 |[Link](https://platform.openai.com/docs/models/gpt-4.1)| - | VLM | X | 56.5 | 26.6 | 52.2 | 25.6 | **53.9** | **26.0** |
-| 14 | **CodePlot-CoT** |[Link](https://huggingface.co/gogoduan/CodePlot-CoT)| 32B | VLM | X | 53.8 | 31.6 | 42.4 | 15.8 | **47.0** | **22.1** |
-| 15 | Gemini-2.0-Flash |[Link](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-exp)| - | VLM | X | 56.1 | 24.1 | 47.0 | 18.3 | **50.7** | **20.6** |
-| 16 | Keye-VL-1.5 |[Link](https://github.com/Kwai-Keye/Keye)| 8B | VLM | X | 44.4 | 20.2 | 34.0 | 15.4 | **38.2** | **17.3** |
-| 17 | Gemma3 |[Link](https://deepmind.google/models/gemma/gemma-3/)| 27B | VLM | X | 50.8 | 19.2 | 40.8 | 14.1 | **44.8** | **16.1** |
-| 18 | Qwen-2.5-VL-72B |[Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-72B-Instruct)| 72B | VLM | X | 44.6 | 15.3 | 38.2 | 12.7 | **40.8** | **13.7** |
-| 19 | Bagel-Zebra-CoT |[Link](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT)| 7B | UM | X | 41.5 | 13.9 | 29.1 | 7.6 | **34.1** | **10.1** |
-| 20 | Qwen-2.5-VL-32B |[Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-32B-Instruct)| 32B | VLM | X | 36.9 | 10.6 | 31.5 | 9.6 | **33.7** | **10.0** |
-| 21 | GPT-4.1-nano |[Link](https://platform.openai.com/docs/models/gpt-4.1-nano)| - | VLM | X | 45.9 | 13.1 | 33.6 | 6.4 | **38.5** | **9.1** |
-| 22 | InternVL-3.5-8B-No-Thinking |[Link](https://huggingface.co/OpenGVLab/InternVL3_5-8B)| 8B | VLM | X | 35.6 | 9.2 | 28.6 | 7.0 | **31.4** | **7.9** |
-| 23 | Bagel |[Link](https://github.com/ByteDance-Seed/Bagel)| 7B | UM | X | 32.9 | 8.5 | 24.0 | 7.0 | **27.6** | **7.6** |
-| 24 | Qwen-2.5-VL-3B |[Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-3B-Instruct)| 3B | VLM | X | 33.4 | 7.9 | 23.6 | 3.6 | **27.5** | **5.3** |
-| 25 | GPT-4o |[Link](https://platform.openai.com/docs/models/gpt-4o)| - | VLM | X | 34.6 | 5.7 | 27.6 | 3.4 | **30.4** | **4.3** |
-| 26 | Qwen-2.5-VL-7B |[Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)| 7B | VLM | X | 18.0 | 4.5 | 11.0 | 2.0 | **13.8** | **3.0** |
+| # | Model | Link | Version | #Params | Type | Thinking | Overall (AC) | Overall (PS) | Text (AC) | Text (PS) | Multimodal (AC) | Multimodal (PS) |
+|---|---|:---:|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Gemini-2.5-Pro 🥇 | [Link](https://deepmind.google/models/gemini/pro/) | – | – | VLM | ✓ | **64.7** | **80.8** | 58.7 | 77.9 | 68.7 | 82.8 |
+| 2 | Gemini-2.5-Flash 🥈 | [Link](https://deepmind.google/models/gemini/flash/) | 2025-06-17 | – | VLM | ✓ | **60.5** | **78.4** | 57.0 | 77.5 | 62.9 | 79.0 |
+| 3 | GPT-o3 🥉 | [Link](https://openai.com/index/introducing-o3-and-o4-mini/) | 2025-04-16 | – | VLM | ✓ | **59.3** | **76.4** | 52.9 | 72.9 | 63.7 | 78.6 |
+| 4 | Seed-1.6-Thinking | [Link](https://seed.bytedance.com/en/seed1_6) | 2025-06-15 | – | VLM | ✓ | **58.4** | **75.2** | 53.0 | 73.0 | 62.0 | 76.6 |
+| 5 | Nano Banana | [Link](https://aistudio.google.com/models/gemini-2-5-flash-image) | 2025-08-26 | – | UM | X | **53.4** | **73.8** | 49.1 | 72.3 | 56.3 | 74.7 |
+| 6 | Gemini-2.5-Flash-No-Thinking | [Link](https://deepmind.google/models/gemini/flash/) | 2025-06-17 | – | VLM | X | **52.3** | **73.7** | 44.6 | 70.9 | 57.5 | 75.5 |
+| 7 | GLM-4.5V | [Link](https://github.com/zai-org/GLM-V) | – | 108B | VLM | ✓ | **49.6** | **69.7** | 48.0 | 70.5 | 50.6 | 69.1 |
+| 8 | Mimo-VL-7B-RL | [Link](https://github.com/XiaomiMiMo/MiMo-VL) | 2508 | 7B | VLM | X | **48.3** | **68.8** | 43.5 | 68.4 | 51.3 | 69.0 |
+| 9 | InternVL-3.5-8B | [Link](https://huggingface.co/OpenGVLab/InternVL3_5-8B) | – | 8B | VLM | ✓ | **40.8** | **62.8** | 38.5 | 64.0 | 42.2 | 62.0 |
+| 10 | GPT-4.1-mini | [Link](https://platform.openai.com/docs/models/gpt-4.1-mini) | – | – | VLM | X | **33.3** | **60.0** | 33.3 | 62.0 | 33.3 | 58.6 |
+| 11 | GLM-4.1V-9B | [Link](https://github.com/zai-org/GLM-V) | – | 9B | VLM | ✓ | **29.0** | **53.4** | 27.8 | 54.4 | 29.9 | 52.7 |
+| 12 | Claude-Sonnet-4 | [Link](https://www.anthropic.com/news/claude-4) | 2025-05-23 | – | VLM | X | **28.1** | **56.4** | 31.5 | 60.9 | 25.8 | 53.4 |
+| 13 | GPT-4.1 | [Link](https://platform.openai.com/docs/models/gpt-4.1) | – | – | VLM | X | **26.0** | **53.9** | 26.6 | 56.5 | 25.6 | 52.2 |
+| 14 | **CodePlot-CoT** | [Link](https://huggingface.co/gogoduan/CodePlot-CoT) | – | 32B | VLM | X | **22.1** | **47.0** | 31.6 | 53.8 | 15.8 | 42.4 |
+| 15 | Gemini-2.0-Flash | [Link](https://aistudio.google.com/prompts/new_chat?model=gemini-2.0-flash-exp) | – | – | VLM | X | **20.6** | **50.7** | 24.1 | 56.1 | 18.3 | 47.0 |
+| 16 | Keye-VL-1.5 | [Link](https://github.com/Kwai-Keye/Keye) | – | 8B | VLM | X | **17.3** | **38.2** | 20.2 | 44.4 | 15.4 | 34.0 |
+| 17 | Gemma3 | [Link](https://deepmind.google/models/gemma/gemma-3/) | – | 27B | VLM | X | **16.1** | **44.8** | 19.2 | 50.8 | 14.1 | 40.8 |
+| 18 | Qwen-2.5-VL-72B | [Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-72B-Instruct) | – | 72B | VLM | X | **13.7** | **40.8** | 15.3 | 44.6 | 12.7 | 38.2 |
+| 19 | Bagel-Zebra-CoT | [Link](https://github.com/multimodal-reasoning-lab/Bagel-Zebra-CoT) | – | 7B | UM | X | **10.1** | **34.1** | 13.9 | 41.5 | 7.6 | 29.1 |
+| 20 | Qwen-2.5-VL-32B | [Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-32B-Instruct) | – | 32B | VLM | X | **10.0** | **33.7** | 10.6 | 36.9 | 9.6 | 31.5 |
+| 21 | GPT-4.1-nano | [Link](https://platform.openai.com/docs/models/gpt-4.1-nano) | – | – | VLM | X | **9.1** | **38.5** | 13.1 | 45.9 | 6.4 | 33.6 |
+| 22 | InternVL-3.5-8B-No-Thinking | [Link](https://huggingface.co/OpenGVLab/InternVL3_5-8B) | – | 8B | VLM | X | **7.9** | **31.4** | 9.2 | 35.6 | 7.0 | 28.6 |
+| 23 | Bagel | [Link](https://github.com/ByteDance-Seed/Bagel) | – | 7B | UM | X | **7.6** | **27.6** | 8.5 | 32.9 | 7.0 | 24.0 |
+| 24 | Qwen-2.5-VL-3B | [Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-3B-Instruct) | – | 3B | VLM | X | **5.3** | **27.5** | 7.9 | 33.4 | 3.6 | 23.6 |
+| 25 | GPT-4o | [Link](https://platform.openai.com/docs/models/gpt-4o) | 2024-11-20 | – | VLM | X | **4.3** | **30.4** | 5.7 | 34.6 | 3.4 | 27.6 |
+| 26 | Qwen-2.5-VL-7B | [Link](https://modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct) | – | 7B | VLM | X | **3.0** | **13.8** | 4.5 | 18.0 | 2.0 | 11.0 |
 </details>
 
 
