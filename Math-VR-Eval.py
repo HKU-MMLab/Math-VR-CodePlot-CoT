@@ -121,20 +121,22 @@ for question_id in tqdm(list(model_answer_dict.keys())):
         point_values=point_values
     )
     content_list = content_list_creation(instruction_prepare_1,instruction_prepare_2,all_text,all_images)
-    completion = client.chat.completions.create(
-        model="gpt-4.1",
-        messages=[
-            {
-                "role": "user",
-                "content": content_list,
-            }
-        ]
-    )
-    answer = completion.choices[0].message.content
-    data = extract_json(answer)
-    if data is not None:
-        results[question_id] = data
-    else:
+    for _ in range(5):  # Try up to 5 times to get a valid JSON response
+        completion = client.chat.completions.create(
+            model="gpt-4.1",
+            messages=[
+                {
+                    "role": "user",
+                    "content": content_list,
+                }
+            ]
+        )
+        answer = completion.choices[0].message.content
+        data = extract_json(answer)
+        if data is not None:
+            results[question_id] = data
+            break 
+    if question_id not in results:
         print(f"Warning: {question_id} is not evaluated due to invalid json output by GPT4.1.")
 
     with open(args.result_dir, 'w') as f:
