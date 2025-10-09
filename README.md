@@ -99,7 +99,7 @@ pip install flash_attn==2.7.4.post1
 For benchmark evaluation only.
 ```bash
 pip install openai==4.1.1
-pip install dataset==2.0.0
+pip install datasets==2.0.0
 ```
 
 ### Model Weights
