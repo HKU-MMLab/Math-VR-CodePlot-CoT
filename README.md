@@ -148,6 +148,7 @@ python summarize_score.py --result_dir "<The path to the saved result>" --data_p
 ```
 
 ## Benchmark
+The leaderboard is available [here](https://math-vr.github.io/).
 We benchmark a suite of SOTA VLMs (Vision Language Models), UMs (Unified Models) and LLMs (Large Language Models) on Math-VR benchmark english subset with 2500 unique questions.
 <details open>
 <summary> Math-VR benchmark (English) on VLMs and UMs </summary>
