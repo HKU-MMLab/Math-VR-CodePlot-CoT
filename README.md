@@ -8,7 +8,7 @@
 
 <sup>1</sup>HKU, <sup>2</sup>Meituan, <sup>3</sup>CUHK
 
-\*Equal contribution, †Project Lead , :envelope:Corresponding authors
+\*Equal contribution, †Project Lead , :envelope:Corresponding author
 </div>
 
 <div align="center">
