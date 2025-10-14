@@ -1,7 +1,7 @@
 # Math-VR Benchmark & CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-Driven Images
 <div align="center">
 <a href="https://math-vr.github.io"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="Home"></a>
-<a href="https://arxiv.org/abs/2510.11718"><img src="https://img.shields.io/badge/Paper-red" alt="Arxiv"></a>
+<a href="https://arxiv.org/abs/2510.11718"><img src="https://img.shields.io/badge/Arxiv-red" alt="Paper"></a>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=HKU-MMLab/Math-VR-CodePlot-CoT" alt="visitors">
   
 [Chengqi Duan](https://scholar.google.com/citations?user=r9qb4ZwAAAAJ&hl=zh-CN)<sup>1\*</sup>, [Kaiyue Sun](https://scholar.google.com/citations?user=mieuBzUAAAAJ&hl=zh-CN&oi=ao)<sup>1\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=en)<sup>3\*</sup>, [Manyuan Zhang](https://manyuan97.github.io/)<sup>2†</sup>, [Yan Feng](https://scholar.google.com/citations?user=m4f3F4cAAAAJ&hl=en)<sup>2</sup>, [Ying Luo](https://scholar.google.com/citations?hl=en&user=-VlvW5IAAAAJ)<sup>2</sup>, [Yufang Liu](https://scholar.google.com/citations?hl=en&user=0V2WCSIAAAAJ)<sup>2</sup>, [Ke Wang](https://scholar.google.com/citations?user=woY4bS8AAAAJ&hl=zh-CN&oi=sra)<sup>3</sup>, [Peng Pei](https://www.linkedin.com/in/peng-pei-7584a839/)<sup>2</sup>, [Xunliang Cai](https://maimai.cn/contact/share/card?u=fudmdwckxlwi)<sup>2</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>3</sup>, [Yi Ma](https://scholar.google.com/citations?user=XqLiBQMAAAAJ&hl=zh-CN&oi=ao)<sup>1</sup>, [Xihui Liu](https://xh-liu.github.io/)<sup>1 :envelope:</sup>
