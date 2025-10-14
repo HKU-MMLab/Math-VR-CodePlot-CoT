@@ -164,7 +164,7 @@ We benchmark a suite of SOTA VLMs (Vision Language Models), UMs (Unified Models)
 | 7 | Nano Banana | [Link](https://aistudio.google.com/models/gemini-2-5-flash-image) | 2025-08-26 | – | UM | X | **53.4** | **73.8** | 49.1 | 72.3 | 56.3 | 74.7 |
 | 8 | Gemini-2.5-Flash-No-Thinking | [Link](https://deepmind.google/models/gemini/flash/) | 2025-06-17 | – | VLM | X | **52.3** | **73.7** | 44.6 | 70.9 | 57.5 | 75.5 |
 | 9 | GLM-4.5V | [Link](https://github.com/zai-org/GLM-V) | – | 108B | VLM | ✓ | **49.6** | **69.7** | 48.0 | 70.5 | 50.6 | 69.1 |
-| 10 | Mimo-VL-7B-RL | [Link](https://github.com/XiaomiMiMo/MiMo-VL) | 2508 | 7B | VLM | X | **48.3** | **68.8** | 43.5 | 68.4 | 51.3 | 69.0 |
+| 10 | Mimo-VL-7B-RL | [Link](https://github.com/XiaomiMiMo/MiMo-VL) | 2508 | 7B | VLM | ✓ | **48.3** | **68.8** | 43.5 | 68.4 | 51.3 | 69.0 |
 | 11 | InternVL-3.5-8B | [Link](https://huggingface.co/OpenGVLab/InternVL3_5-8B) | – | 8B | VLM | ✓ | **40.8** | **62.8** | 38.5 | 64.0 | 42.2 | 62.0 |
 | 12 | GPT-4.1-mini | [Link](https://platform.openai.com/docs/models/gpt-4.1-mini) | – | – | VLM | X | **33.3** | **60.0** | 33.3 | 62.0 | 33.3 | 58.6 |
 | 13 | GLM-4.1V-9B | [Link](https://github.com/zai-org/GLM-V) | – | 9B | VLM | ✓ | **29.0** | **53.4** | 27.8 | 54.4 | 29.9 | 52.7 |
