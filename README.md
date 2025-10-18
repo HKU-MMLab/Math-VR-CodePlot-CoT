@@ -205,6 +205,15 @@ If you find this work helpful, please consider citing our paper:
   journal={arXiv preprint arXiv:2510.11718},
   year={2025}
 }
+@inproceedings{
+  wang2025mathcodervl,
+  title={MathCoder-{VL}: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning},
+  author={Ke Wang and Junting Pan and Linda Wei and Aojun Zhou and Weikang Shi and Zimu Lu and Han Xiao and Yunqiao Yang and Houxing Ren and Mingjie Zhan and Hongsheng Li},
+  booktitle={The 63rd Annual Meeting of the Association for Computational Linguistics},
+  year={2025},
+  url={https://openreview.net/forum?id=nuvtX1imAb}
+}
+
 ```
 
 ### Contact
