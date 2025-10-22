@@ -199,9 +199,9 @@ This code is released under the MIT License.
 ### Citation
 If you find this work helpful, please consider citing our paper:
 ```
-@article{duan2025code,
+@article{duan2025codeplot,
   title={CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-Driven Images},
-  author={Duan, Chengqi and Fang, Rongyao and Wang, Yuqing and Wang, Kun and Huang, Linjiang and Zeng, Xingyu and Li, Hongsheng and Liu, Xihui},
+  author={Duan, Chengqi and Sun, Kaiyue and Fang, Rongyao and Zhang, Manyuan and Feng, Yan and Luo, Ying and Liu, Yufang and Wang, Ke and Pei, Peng and Cai, Xunliang and others},
   journal={arXiv preprint arXiv:2510.11718},
   year={2025}
 }
