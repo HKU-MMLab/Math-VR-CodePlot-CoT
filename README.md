@@ -161,7 +161,7 @@ We benchmark a suite of SOTA VLMs (Vision Language Models), UMs (Unified Models)
 | 4 | Gemini-2.5-Flash | [Link](https://deepmind.google/models/gemini/flash/) | 2025-06-17 | – | VLM | ✓ | **60.5** | **78.4** | 57.0 | 77.5 | 62.9 | 79.0 |
 | 5 | GPT-o3 | [Link](https://openai.com/index/introducing-o3-and-o4-mini/) | 2025-04-16 | – | VLM | ✓ | **59.3** | **76.4** | 52.9 | 72.9 | 63.7 | 78.6 |
 | 6 | Seed-1.6-Thinking | [Link](https://seed.bytedance.com/en/seed1_6) | 2025-06-15 | – | VLM | ✓ | **58.4** | **75.2** | 53.0 | 73.0 | 62.0 | 76.6 |
-| 7 | GPT-5-Thinking | [Link](https://openai.com/index/introducing-gpt-5/) | – | – | LLM | ✓ | **58.1** | **70.6** | 53.2 | 68.0 | 61.4 | 72.3 |
+| 7 | GPT-5-Thinking | [Link](https://openai.com/index/introducing-gpt-5/) | – | – | VLM | ✓ | **58.1** | **70.6** | 53.2 | 68.0 | 61.4 | 72.3 |
 | 8 | Claude Opus4.1 | [Link](https://www.anthropic.com/news/claude-opus-4-1) | – | – | VLM | ✓ | **54.3** | **70.6** | 53.1 | 70.5 | 55.1 | 70.6 |
 | 9 | Nano Banana | [Link](https://aistudio.google.com/models/gemini-2-5-flash-image) | 2025-08-26 | – | UM | X | **53.4** | **73.8** | 49.1 | 72.3 | 56.3 | 74.7 |
 | 10 | Gemini-2.5-Flash-No-Thinking | [Link](https://deepmind.google/models/gemini/flash/) | 2025-06-17 | – | VLM | X | **52.3** | **73.7** | 44.6 | 70.9 | 57.5 | 75.5 |
